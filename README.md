@@ -11,6 +11,7 @@ What You Need && Need to Know
 * Other dependencies:
 
 `pip install python-dotenv`
+
 `pip install termcolor`
 
 * Make sure you fully understand [Twitter's Rules on Automation](https://support.twitter.com/articles/76915). Play nice. Don't spam! 
