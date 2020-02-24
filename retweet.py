@@ -31,14 +31,14 @@ search = '#keywordToSearch'
 maxNumberOfTweets = 500
 
 #To keep track of tweets published
-count = 0 
+count = 0
 
 print(colored('Retweet Bot Started!', 'green'))
 
 for tweet in tweepy.Cursor(api.search, search).items(maxNumberOfTweets):
     try:
         print(colored('Found tweet by @' + tweet.user.screen_name, 'cyan'))
-        
+
         #Publishing retweet
         tweet.retweet()
 
