@@ -6,15 +6,18 @@ What You Need & Need to Know
 
 * [Tweepy](http://www.tweepy.org/) - An easy-to-use Python library for accessing the Twitter API.
 
-`pip install tweepy`
-
-* Other dependencies:
-
-`pip install python-dotenv`
-
-`pip install termcolor`
-
 * Make sure you fully understand [Twitter's Rules on Automation](https://support.twitter.com/articles/76915). Play nice. Don't spam! 
+
+Setup
+----------
+
+Install all dependencies
+
+```
+pip install -r requirements.txt
+```
+
+Creates a `.env` file with all environment variables like the `.env.example` file.
 
 Instructions
 ----------
