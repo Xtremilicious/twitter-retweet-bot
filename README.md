@@ -17,7 +17,7 @@ Install all dependencies
 pip install -r requirements.txt
 ```
 
-Configure all the environments variables at `.env` file.
+Creates a `.env` file with all environment variables like the `.env.example` file.
 
 Instructions
 ----------
