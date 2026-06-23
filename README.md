@@ -28,6 +28,7 @@ Instructions
 
 * Create a new [Twitter Application](https://apps.twitter.com). This is where you'll generate your keys, tokens, and secrets.
 * Fill in your keys, tokens, and secrets in the .env file.
+* Optional: set `RETWEET_BACKEND=xquik`, `XQUIK_API_KEY`, and `XQUIK_ACCOUNT` to search and retweet through Xquik. `XQUIK_API_BASE` defaults to `https://xquik.com/api/v1`.
 * Check comments in retweet.py to tweak the retweet bot to your liking.
 * The example demonstrates a single hashtag value, but you can tweak the code to search multiple hashtags. Example:
 
